@@ -1,5 +1,7 @@
 /* app css stylesheet */
-
+body {
+  font-family: 'Helvetica Neue', 'sans-serif';
+}
 .menu {
   list-style: none;
   border-bottom: 0.1em solid black;
@@ -28,3 +30,20 @@
   content: "";
   padding: 0;
 }
+
+footer {
+  margin-top:30px;
+  font-size:14px;
+  color: gray;  
+}
+
+footer a {
+  color: #5790BD;
+  text-decoration:none;
+}
+
+footer a {
+  color: #5790BD;
+  text-decoration:none;
+}
+
