@@ -1,4 +1,14 @@
-# angular-seed — the seed for AngularJS apps
+# Angular HighCharts Directive
+This project shows you how to use the popular charting library [HighCharts](http://www.highcharts.com/) with [angularjs](http://angularjs.org/) with directives. It is based on the original angular-seed project. 
+
+Example code covers:
+
+* Basic chart usage with pie and areaspline chart
+* (Coming soon: Interaction between chart and controller)
+
+
+
+##  The original documentation angular-seed — the seed for AngularJS apps
 
 This project is an application skeleton for a typical [AngularJS](http://angularjs.org/) web app.
 You can use it to quickly bootstrap your angular webapp projects and dev environment for these
