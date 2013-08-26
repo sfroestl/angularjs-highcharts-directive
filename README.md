@@ -1,4 +1,6 @@
 # Angular HighCharts Directive
+[Small Improvements](https://www.small-improvements.com) Angularjs Highchart Directive.
+
 This project shows you how to use the popular charting library [HighCharts](http://www.highcharts.com/) with [angularjs](http://angularjs.org/) with directives. It is based on the original angular-seed project. 
 
 Example code covers:
