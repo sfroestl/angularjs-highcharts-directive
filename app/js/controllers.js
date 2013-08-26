@@ -19,11 +19,42 @@ angular.module('myApp.controllers', []).
 					{name: 'Opera', y: 6.2},
 					{name: 'Others', y: 0.7}
 				]
-			}			
-		
+			}		
 	};
 
   }])
-  .controller('MyCtrl2', [function() {
+  .controller('MyCtrl2', ['$scope',function($scope) {
+  	$scope.areaChartData = {
+  		title: 'Average fruit consumption during one week',
+  		series : [
+        {
+            name: 'John',
+            data: [3, 4, 3, 5, 4, 10, 12]
+        }, {
+            name: 'Jane',
+            data: [1, 3, 4, 3, 3, 5, 4]
+        }],
+        xAxis: {
+            categories: [
+                'Monday',
+                'Tuesday',
+                'Wednesday',
+                'Thursday',
+                'Friday',
+                'Saturday',
+                'Sunday'
+            ],
+            plotBands: [{ // visualize the weekend
+                from: 4.5,
+                to: 6.5,
+                color: 'rgba(68, 170, 213, .2)'
+            }]
+        },
+        yAxis: {
+            title: {
+                text: 'Fruit units'
+            }
+        }
+  	};
 
   }]);
