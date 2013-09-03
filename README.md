@@ -3,8 +3,8 @@
 
 This project shows you how to use the popular charting library [HighCharts](http://www.highcharts.com/) with [angularjs](http://angularjs.org/) with directives. It is based on the original angular-seed project. 
 
-This direcitve is:
-* Easy useable and extendable
+This direcitve:
+* Is easy useable and extendable
 * Wraps the HighChart config to allow you easy configuration of the chart
 * 
 
