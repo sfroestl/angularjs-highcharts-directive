@@ -5,8 +5,8 @@ This project shows you how to use the popular charting library [HighCharts](http
 
 This direcitve is:
 * Easy useable and extendable
+* Wraps the HighChart config to allow you easy configuration of the chart
 * 
-*
 
 Example code covers:
 
